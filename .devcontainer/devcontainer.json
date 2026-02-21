@@ -1,0 +1,16 @@
+{
+  "name": "p5js-codespace",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-20-bullseye",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  },
+  "forwardPorts": [5173],
+  "portsAttributes": {
+    "5173": { "label": "p5 preview", "onAutoForward": "openBrowser", "visibility": "private" }
+  }
+}
